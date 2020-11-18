@@ -1,7 +1,3 @@
-# FML
-Fundamentals of Machine Learning
-
-
 # How to use create_handin.py
 
 First, edit the file and exchange our Team names with your Team names (lines 19-21).
