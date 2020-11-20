@@ -1,6 +1,6 @@
 # How to use create_handin.py
 
-First, edit the file and exchange our Team names with your Team names (lines 19-21).
+First, edit the file and exchange our Team names with your Team names (lines 24-26).
 
 Ensure your current working directory is one level **up** from the exercise directory.
 Then, simply run the script with `python create_handin.py <exercise name> <notebook name>`.
