@@ -131,10 +131,12 @@ def main():
 
     if com:
         com_html = convert_ipynb_html(com)
+        zipf.write(com, com.name)
         zipf.write(com_html, com_html.name)
 
     if ccom:
         ccom_html = convert_ipynb_html(ccom)
+        zipf.write(ccom, ccom.name)
         zipf.write(ccom_html, ccom_html.name)
 
     if args.more:
