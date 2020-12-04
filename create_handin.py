@@ -14,7 +14,7 @@ class TeamMember:
 
     def __lt__(self, other):
         # define sorting order for TeamMembers
-        return "".join(self.last_names + self.first_names) < "".join(other.last_names + other.first_names)
+        return "".join(self.first_names + self.last_names) < "".join(other.last_names + other.first_names)
 
 
 def is_ascii(s):
