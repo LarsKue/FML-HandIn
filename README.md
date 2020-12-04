@@ -1,5 +1,8 @@
 # Update Overview
 
+#### 2020-12-04
+- Adjusted for new naming convention: `firstname-lastname` instead of `lastname-firstname`
+
 #### 2020-11-22
 - Now autodetects main notebook, as well as optionally commented and cross-commented notebooks.
 - Removed the `notebook` parameter.
