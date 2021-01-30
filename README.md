@@ -25,6 +25,9 @@ You can compare your file structure to the one of this repository.
 
 You can add more files to the hand-in by specifying a glob pattern in the `--more` option.
 
+If your exercise directory contains extra notebooks, or you want to exclude certain files
+from the `--more` option, you can do so with the `--ignore` option.
+
 You can view more information about the tool using `python create_handin.py -h`.
 
 The script assumes you have both a python 3 interpreter as well as jupyter added to your environment variables.
