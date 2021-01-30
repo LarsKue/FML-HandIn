@@ -1,5 +1,9 @@
 # Update Overview
 
+#### 2021-01-30
+
+- Added option to ignore files with `--ignore`
+
 #### 2020-12-04
 - Adjusted for new naming convention: `firstname-lastname` instead of `lastname-firstname`
 
