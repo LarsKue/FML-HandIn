@@ -10,7 +10,10 @@ class TeamMember:
         self.last_names = last_names
 
     def __str__(self):
-        return "-".join(self.first_names + self.last_names).lower()
+        # lastname1-firstname1_lastname2-firstname2
+        return "-".join(self.last_names + self.first_names).lower()
+        # firstname1-lastname1_firstname2-lastname2
+        # return "-".join(self.first_names + self.last_names).lower()
 
     def __lt__(self, other):
         # define sorting order for TeamMembers
