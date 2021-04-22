@@ -14,7 +14,7 @@ class TeamMember:
 
     def __lt__(self, other):
         # define sorting order for TeamMembers
-        return "".join(self.first_names + self.last_names) < "".join(other.last_names + other.first_names)
+        return "".join(self.last_names) < "".join(other.last_names)
 
 
 def is_ascii(s):
@@ -92,7 +92,7 @@ def find_notebooks(path: pathlib.Path, ignore: str = None):
 def convert_ipynb_html(path):
     import subprocess
     # we use jupyter for the conversion
-    subprocess.run(f"jupyter nbconvert --to html {path.absolute()}")
+    subprocess.run(["jupyter", "nbconvert", "--to", "html", str(path)])
     # return the path to the new html file
     return path.with_suffix(".html")
 
