@@ -1,11 +1,18 @@
 # Update Overview
 
+#### 2021-04-22
+
+- Adjusted back to old naming convention: `lastname-firstname` instead of `firstname-lastname` for AML.
+- Adjusted the name sorting order for AML.
+- Fixed a bug in the name sorting order.
+- Fixed a bug that prevented files being detected correctly.
+
 #### 2021-01-30
 
-- Added option to ignore files with `--ignore`
+- Added option to ignore files with `--ignore`.
 
 #### 2020-12-04
-- Adjusted for new naming convention: `firstname-lastname` instead of `lastname-firstname`
+- Adjusted for new naming convention: `firstname-lastname` instead of `lastname-firstname`.
 
 #### 2020-11-22
 - Now autodetects main notebook, as well as optionally commented and cross-commented notebooks.
